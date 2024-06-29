@@ -14,11 +14,12 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
           appBarTheme: const AppBarTheme(
               centerTitle: true,
-              elevation: 1,
-              backgroundColor: Colors.blueAccent,
+              elevation: 10,
+              iconTheme: IconThemeData(color: Colors.black),
+              backgroundColor: Color.fromARGB(255, 94, 162, 196),
               titleTextStyle: TextStyle(
-                color: Colors.white,
-                fontWeight: FontWeight.normal,
+                color: Color.fromARGB(255, 0, 0, 0),
+                fontWeight: FontWeight.bold,
                 fontSize: 19,
               ))),
       home: const HomeScreen(),

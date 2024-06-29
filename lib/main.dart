@@ -21,7 +21,7 @@ class MyApp extends StatelessWidget {
               centerTitle: true,
               elevation: 10,
               iconTheme: IconThemeData(color: Colors.black),
-              backgroundColor: Color.fromARGB(255, 94, 162, 196),
+              backgroundColor: Color.fromARGB(255, 255, 255, 255),
               titleTextStyle: TextStyle(
                 color: Color.fromARGB(255, 0, 0, 0),
                 fontWeight: FontWeight.bold,

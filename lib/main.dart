@@ -1,5 +1,10 @@
 import 'package:flutter/material.dart';
+import 'package:secured_line/screens/auth/loginscreen.dart';
 import 'package:secured_line/screens/home_screen.dart';
+
+//global variable for accessing device screen size
+late Size mq;
+// Media query needs to be initialized and it needs to be done inside a build function that is wrapped inside a material app
 
 void main() {
   runApp(const MyApp());
@@ -22,7 +27,7 @@ class MyApp extends StatelessWidget {
                 fontWeight: FontWeight.bold,
                 fontSize: 19,
               ))),
-      home: const HomeScreen(),
+      home: const LoginScreen(),
     );
   }
 }

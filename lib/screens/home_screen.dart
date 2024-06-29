@@ -28,6 +28,8 @@ class _MyWidgetState extends State<HomeScreen> {
           ),
         ],
       ),
+
+      //Floating action button to add new user
       floatingActionButton: Padding(
         padding: const EdgeInsets.only(bottom: 6.0),
         child: FloatingActionButton(

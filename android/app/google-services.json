@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "337757260011",
+    "project_id": "d-line-ec6de",
+    "storage_bucket": "d-line-ec6de.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:337757260011:android:1285114b5d68eca3ffd6ae",
+        "android_client_info": {
+          "package_name": "com.SLine.app"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAQOH08qkX5S0NwHHqVmw9tvIeecmhJfjk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
